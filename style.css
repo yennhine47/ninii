@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-image: linear-gradient(to right,hwb(197 36% 21%),#b2dcf3,#cfc6d7);
+}
+
+.link-nav{
+    text-decoration: none;
+    color: rgb(200, 143, 200);
+    box-shadow: 5px 5px 5px 0 rgb(143, 79, 79) ;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.link-header{
+    text-decoration: none;
+    color: rgb(190, 7, 95);
+    border: 10px solid blue;
+    border-radius: 20px;
+
+}
+.link-header:hover{
+    color: rgb(68, 117, 232)
+}
+
+nav{
+     display: flex;
+     justify-content: space-around;
+    
+}
+
+.social{
+    margin: 40px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-nav:hover{
+    color: pink;
+    transform: scale(2);
+    transition: 3s color linear;
+}
